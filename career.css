@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    scroll-behavior: smooth;
+    background-color:#f8f8f8;
+    cursor: pointer;
+}
+.career-top{
+    background: linear-gradient(90deg, #38A3A5 0%, #202D87 100%);
+    position: relative;
+    min-height:20vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    color: white;
+}
+.job-level{
+align-self: flex-end;
+}
+.muibutton-lable{
+    width: 100%;
+    padding: 10px;
+    margin-top: 80px;
+}
+.top-image img{
+    width: 150px;
+}
+#searchButton
+{
+    position: absolute;
+    margin-left: 250px;
+    background: transparent;
+    margin-top: 10px;
+    border: none;
+}
+.search{
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+#searchBar
+{
+    width: 100%;
+    border: 0;
+    outline: none;
+    flex: 1;
+    padding: 10px;
+
+}
+
+.inner-section{
+    background: linear-gradient(90deg, #38A3A5 0%, #202D87 100%);
+    position: relative;
+    padding: 20px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.inner-section h3{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.inner-section span{
+    font-size: 40px;
+    font-weight: 300;
+}
+.bar1{
+    width: 150px;
+}
+.account{
+    color: white;
+    flex-direction: column;
+}
+.application{
+    display: flex;
+    gap: 20px;
+}
+.box-item{
+    border: 1px solid;
+    background-color: #38A3A5;
+    padding: 10px;
+
+}
+.search-bar{
+    width: 100%;
+    text-align: start;
+    padding: 10px;
+}
+.button-hai{
+justify-content: space-between;
+}
+.dnd-section{
+color: white;
+margin-top: 10px;
+}
+.dnd-section h2{
+color: #202D87;
+font-size: 40px;
+}
+.dnd-section span{
+    color: black;
+    font-size: 40px;
+    font-weight: 400;
+}
+.card{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.card1{
+    border: 1px solid gray;
+    padding: 20px;
+}
+.card1 tag{
+    background-color:green;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+.card1 h3{
+    font-size: 20px;
+    font-weight: 300;
+    color: #202D87;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.carditem-2{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.card1 p,
+.card1 h4{
+color: black;
+margin-bottom: 10px;
+}
+.hr-line{
+    width: 25px;
+    justify-content: center;   
+}
+.card1 h3:hover{
+    color: #38A3A5;
+}
+.hr-line:hover{
+    width: 100px;
+    color:5px solid red;
+}
+.card1 h5{
+    color: gray;
+    margin-top: 10px;
+}
+.job-oky{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.center-btn{
+    color: #0f1439;
+    text-transform: uppercase;
+    border:1px solid #3AD8B6 ;
+    background-color: #3AD8B6;
+    padding: 10px;
+    border-radius:10%;
+}
+.Values{
+    margin-bottom: 20px;
+   
+}
+.Values h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+.Values span{
+    font-size: 50px;
+    font-weight: 300;
+}
+.sign-up{
+    color: #fff;
+    margin: 36px 0;
+    padding: 60px;
+    background: linear-gradient(180deg, #38a1a5 0%, #275291 100%);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.sign-content h1{
+    font-size: 1.9732142857142858rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.235;
+    letter-spacing: 0.00735em;
+    color: white;
+}
+.sign-content p{
+    font-size: 1.1607142857142858rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.6;
+    letter-spacing: 0.0075em;
+    color: white;
+}
+.br-bari{
+    padding: 5px;
+    width: 100%;
+}
+.sign-btn{
+    padding: 60px;
+    display: flex;
+    gap: 5px;
+    justify-content: end;
+}
+.sub-btn{
+    background-color:#3AD8B6;
+    color: black;
+    width: 30%;
+}
+.item-2 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: -2px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+outline: 1px solid #202d87;
+padding: 7px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    margin: auto ;
+    row-gap: 50px;
+
+}
+.item-2{
+    flex: 1 1 25%;
+    background-color:#ffffff;
+text-align: center;
+padding: 25px 10px;
+position: relative;
+}
+.item-2 p{
+    padding-bottom: 24px;
+    padding-top: 16px;
+}
+.item-2 h3{
+    padding-top: 15px;
+}
