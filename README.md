@@ -1,2 +1,2 @@
 # Cogent-Labs-Website-
-I Developed Cogent Lab Website Using HTML And CSS 
+I Developed the Cogent Lab Website Using HTML And CSS 
